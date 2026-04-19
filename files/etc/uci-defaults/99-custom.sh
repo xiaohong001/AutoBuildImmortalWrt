@@ -60,7 +60,7 @@ esac
 
 # 3. 配置网络
 # 网络配置（旁路由）
-uci set network.lan.ipaddr='192.168.123.111'
+uci set network.lan.ipaddr='192.168.123.110'
 uci set network.lan.proto='static'
 uci set network.lan.type='bridge'
 uci set network.lan.ifname='eth0'
